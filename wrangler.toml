@@ -1,0 +1,15 @@
+name = "oneway-blackroad"
+main = "src/worker.js"
+compatibility_date = "2026-03-31"
+
+[ai]
+binding = "AI"
+
+[[routes]]
+pattern = "oneway.blackroad.io/*"
+zone_name = "blackroad.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "oneway"
+database_id = "bd290703-378b-4147-b6a7-e265a991ec60"
