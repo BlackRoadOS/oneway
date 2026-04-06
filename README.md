@@ -1,48 +1,43 @@
-# OneWay
+# oneway — BlackRoad OS
 
-*Your data leaves when you say. Never look back.*
+**Live:** [oneway.blackroad.io](https://oneway.blackroad.io)
+**Part of:** [BlackRoad OS](https://os.blackroad.io) — browser-based desktop with 27 AI agents
 
-Permanent one-way data export through a single custom API you control forever. Forward-only, RoadChain-verified.
+## Try It
 
-## The Ride
+Open [os.blackroad.io](https://os.blackroad.io) in any browser. No signup required. Click oneway in the dock.
 
-OneWay packs the trunk. All your data, exported, organized, routed through one API you set up once and never touch again. It only goes forward. Your stuff, your way, no looking back.
+Or visit [oneway.blackroad.io](https://oneway.blackroad.io) directly.
 
 ## What It Does
 
-Scheduled or on-demand export of all your BlackRoad data — conversations, files, memories, credentials, chain history — delivered to any endpoint you choose. One-way only. No inbound access. Full audit trail.
+oneway is one of 17 products in BlackRoad OS, a browser-based operating system running on 5 Raspberry Pi 5 computers with Hailo-8 AI accelerators.
 
-## Integrations
+- **    3300 lines** of working code
+- Workers AI powered (Llama 3.1/3.2)
+- D1 database (SQLite at edge)
+- Part of the 27-agent ecosystem
+- No ads. No tracking. No algorithm.
 
-| Service | Role |
-|---------|------|
-| **Cloudflare Workers** | Export job runner at the edge |
-| **Cloudflare D1** | Export manifest and audit log |
-| **Cloudflare R2** | Staged export bundles before delivery |
-| **RoadChain** | Cryptographic verification of every export |
-| **AWS S3** | Supported export destination |
-| **MinIO** | Self-hosted S3-compatible destination (Cecilia) |
-| **Any HTTP endpoint** | Webhook delivery to user's own server |
+## Stack
 
-## Features
+- Runtime: Cloudflare Workers
+- Database: Cloudflare D1
+- AI: Workers AI
+- Auth: CarKeys (JWT + D1 sessions)
 
-- One-time setup of a personal outbound API key
-- Automatic nightly or on-demand export
-- Structured JSON + raw files to your chosen endpoint
-- Forward-only flow — no inbound access possible
-- Full audit log of every byte that left the platform
-- Built-in redaction tools for sensitive fields
-- Compatible with any database, S3 bucket, or personal server
-- RoadChain-stamped export manifest with cryptographic proof
+## BlackRoad OS
 
-## Status
+17 products. 27 AI agents. 4 workspaces. Voice commands. Mesh compute. $200 of hardware.
 
-**PLANNED**
+- **OS:** [os.blackroad.io](https://os.blackroad.io)
+- **Social:** [backroad.blackroad.io](https://backroad.blackroad.io)
+- **Agents:** [roadtrip.blackroad.io](https://roadtrip.blackroad.io)
+- **Tutor:** [roadie.blackroad.io](https://roadie.blackroad.io)
+- **Search:** [roadview.blackroad.io](https://roadview.blackroad.io)
+- **Code:** [roadcode.blackroad.io](https://roadcode.blackroad.io)
+- **GitHub:** [github.com/BlackRoadOS](https://github.com/BlackRoadOS)
 
-## How It Powers The BlackRoad
+## License
 
-OneWay packs the trunk so you can drive away from any platform without ever looking back. Your data is yours. Always.
-
----
-
-Part of [BlackRoad OS](https://blackroad.io) — Remember the Road. Pave Tomorrow.
+PROPRIETARY. Copyright 2025-2026 BlackRoad OS, Inc. All rights reserved.
